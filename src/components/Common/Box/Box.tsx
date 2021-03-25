@@ -1,6 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
-import { BoxContainer } from './Box.style';
+import './Box.scss';
 
 interface PropsType {
   title: string;
@@ -10,14 +10,16 @@ interface PropsType {
 const Box = ({ title, summary, link }: PropsType) => {
   const history = useHistory();
   return (
-    <BoxContainer
+    <div
+      className="Box"
       onClick={() => {
         history.push(link);
       }}
     >
-      <h1>{title}</h1>
-      <p>{summary}</p>
-    </BoxContainer>
+      <h1 className="Box_title">{title}</h1>
+      <div className="Box_line" />
+      <p className="Box_summary">{summary}</p>
+    </div>
   );
 };
 

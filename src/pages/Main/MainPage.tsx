@@ -1,24 +1,22 @@
 import Box from 'components/Common/Box';
 import React from 'react';
-import { BoxList } from './MainPage.style';
+import './MainPage.scss';
+import { lectures } from 'data/lectureData';
 
 const MainPage = () => {
-  const style: React.CSSProperties = { fontSize: '20px', fontWeight: 'bold', margin: '1rem' };
+  const mapLecture = lectures.map((item) => (
+    <div className="mainPage_boxList">
+      <Box title={item.title} summary={item.summary} link={item.link} />
+    </div>
+  ));
   return (
-    <div>
-      <div
-        style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        React <p style={style}>X</p> Redux <p style={style}>X</p> Typescript <p style={style}>X</p>{' '}
-        Redux-saga
+    <div className="mainPage">
+      <h1 className="mainPage_title">REDUX REDUX-SAGA TYPESCRIPT REACT</h1>
+      <div className="mainPage_subTitle">
+        리덕스,리덕스 사가,타입스크립트,리액트를 프로처럼 프로답게 사용하는 법을 알아보도록 합시다.
       </div>
-      <BoxList>
-        <Box title="카운터" summary="Redux를 이용해서 간단한 카운터를 만들어봅시다" link="/" />
-      </BoxList>
+      <hr />
+      {mapLecture}
     </div>
   );
 };

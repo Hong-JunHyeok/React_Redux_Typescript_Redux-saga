@@ -1,0 +1,17 @@
+.mainPage {
+  &_title {
+    text-align: center;
+    padding: 1rem;
+  }
+  &_subTitle {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+  }
+  &_boxList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

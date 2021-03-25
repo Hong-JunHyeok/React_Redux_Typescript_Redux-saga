@@ -1,0 +1,28 @@
+@import 'styles/colors.scss';
+@import 'styles/util.scss';
+
+.Box {
+  width: 800px;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 2rem;
+  //   box-shadow: rgba(104, 104, 139, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+  &:hover {
+    transform: translateY(-10px);
+  }
+  &_line {
+    border: 1px solid $MAIN_COLOR;
+  }
+  &_title {
+    text-align: center;
+    padding: 1rem;
+  }
+  &_summary {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+}
