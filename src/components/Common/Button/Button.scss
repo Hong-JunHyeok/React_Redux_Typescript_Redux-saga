@@ -1,0 +1,19 @@
+@import 'styles/colors.scss';
+
+.Button {
+  background-color: $MAIN_COLOR;
+  width: 100px;
+  height: 60px;
+  border-radius: 10px;
+  transition: ease-in-out 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #f2f2f2;
+  font-size: 2rem;
+  user-select: none;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

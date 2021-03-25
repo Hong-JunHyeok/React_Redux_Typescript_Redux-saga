@@ -2,11 +2,12 @@ import Box from 'components/Common/Box';
 import React from 'react';
 import './MainPage.scss';
 import { lectures } from 'data/lectureData';
+import { GithubButton } from 'components/Common/Button/Button';
 
 const MainPage = () => {
   const mapLecture = lectures.map((item) => (
     <div className="mainPage_boxList" key={item.id}>
-      <Box title={item.title} summary={item.summary} link={item.link} />
+      <Box title={item.title} summary={item.summary} link={item.link} stack={item.stack} />
     </div>
   ));
   return (
@@ -17,6 +18,7 @@ const MainPage = () => {
       </div>
       <hr />
       {mapLecture}
+      <GithubButton link="https://github.com/Hong-JunHyeok" />
     </div>
   );
 };

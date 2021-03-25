@@ -13,10 +13,6 @@ const useCount = () => {
   const onDecrease = useCallback(() => {
     dispatch(decrease());
   }, [dispatch]);
-  const dispatcher = {
-    onIncrease,
-    onDecrease,
-  };
 
   return { number, onIncrease, onDecrease };
 };
