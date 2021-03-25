@@ -5,7 +5,7 @@ import { lectures } from 'data/lectureData';
 
 const MainPage = () => {
   const mapLecture = lectures.map((item) => (
-    <div className="mainPage_boxList">
+    <div className="mainPage_boxList" key={item.id}>
       <Box title={item.title} summary={item.summary} link={item.link} />
     </div>
   ));
