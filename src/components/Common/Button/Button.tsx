@@ -35,6 +35,7 @@ export const GithubButton = ({ link }: GithubPropsType) => {
         position: 'fixed',
         right: '10px',
         bottom: '30px',
+        borderRadius: '50px',
       }}
     >
       <AiFillGithub />

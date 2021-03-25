@@ -1,10 +1,20 @@
 .CounterPage {
   width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  &_reduxContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &_codeContainer {
+    &_title {
+      text-align: center;
+    }
+    &_card {
+      margin-top: 3rem;
+    }
+  }
   &_state {
     padding: 2rem;
     display: flex;
@@ -13,5 +23,21 @@
   }
   &_buttonWrap {
     display: flex;
+  }
+}
+.please_scroll_down {
+  position: absolute;
+  bottom: 20px;
+  animation: bounce infinite 1s;
+}
+@keyframes bounce {
+  0% {
+    margin-bottom: 0;
+  }
+  50% {
+    margin-bottom: 15px;
+  }
+  100% {
+    margin-bottom: 0;
   }
 }
