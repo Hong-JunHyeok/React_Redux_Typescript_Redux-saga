@@ -9,7 +9,9 @@ import TodoList from 'components/Todo/TodoList';
 
 const TodoPage = () => {
   const { todo, onAddTodo, onRemoveTodo, onToggleTodo } = useTodo();
-  const todoMap = todo.map((item) => <TodoItem id={item.id} done={item.done} todo={item.todo} />);
+  const todoMap = todo.map((item) => (
+    <TodoItem key={item.id} id={item.id} done={item.done} todo={item.todo} />
+  ));
   const [inputTodo, setInputTodo] = useState<string>('');
 
   useEffect(() => {
@@ -19,6 +21,7 @@ const TodoPage = () => {
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>, todo: string) => {
     event.preventDefault();
     onAddTodo(todo);
+    setInputTodo('');
   };
 
   return (

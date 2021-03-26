@@ -3,7 +3,21 @@
   margin-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 10px;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
   &_done_style {
     text-decoration: line-through;
+  }
+  &_deleteBtn {
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+  }
+  &:hover {
+    transform: translateY(-7px) scale(1.05);
+  }
+  &:hover &_deleteBtn {
+    opacity: 1;
   }
 }

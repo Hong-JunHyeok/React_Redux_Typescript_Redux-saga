@@ -1,6 +1,5 @@
 import { RootState } from 'modules';
 import { addTodo, removeTodo, toggleTodo } from 'modules/todo/actions';
-import { Todo } from 'modules/todo/types';
 import { useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
