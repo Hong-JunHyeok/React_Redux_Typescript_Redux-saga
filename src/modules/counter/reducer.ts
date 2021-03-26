@@ -1,4 +1,4 @@
-import { INCREASE, DECREASE, CounterActions } from '../actions/counterActions';
+import { INCREASE, DECREASE, CounterActions } from './actions';
 
 type State = {
   count: number;
