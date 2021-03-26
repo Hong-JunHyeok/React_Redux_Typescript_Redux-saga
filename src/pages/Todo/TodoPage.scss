@@ -1,0 +1,11 @@
+@import 'styles/util.scss';
+
+.Todo {
+  width: 100%;
+  &_reduxContainer {
+    height: 100vh;
+    @include centerSort();
+  }
+  &_codeContainer {
+  }
+}

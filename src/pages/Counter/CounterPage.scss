@@ -25,19 +25,3 @@
     display: flex;
   }
 }
-.please_scroll_down {
-  position: absolute;
-  bottom: 20px;
-  animation: bounce infinite 1s;
-}
-@keyframes bounce {
-  0% {
-    margin-bottom: 0;
-  }
-  50% {
-    margin-bottom: 15px;
-  }
-  100% {
-    margin-bottom: 0;
-  }
-}

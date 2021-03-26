@@ -1,8 +1,16 @@
 import React from 'react';
 import './TodoPage.scss';
+import useTodo from 'hooks/redux/useTodo';
 
 const TodoPage = () => {
-  return <div className="Todo">Todo Page</div>;
+  const { todo, onAddTodo, onRemoveTodo, onToggleTodo } = useTodo();
+  return (
+    <div className="Todo">
+      <div className="Todo_reduxContainer">투두리스트 템플릿 예제를 여기에 추가해주세요</div>
+      <span className="bounce_animation">아래로 스크롤해서 소스코드를 확인해보세요!</span>
+      <div className="Todo_codeContainer">투두리스트 코드를 여기에 추가해주세요</div>
+    </div>
+  );
 };
 
 export default TodoPage;

@@ -30,7 +30,7 @@ const Counter = () => {
             -
           </Button>
         </div>
-        <span className="please_scroll_down">아래로 스크롤해서 소스코드를 확인해보세요!</span>
+        <span className="bounce_animation">아래로 스크롤해서 소스코드를 확인해보세요!</span>
       </div>
       <div className="CounterPage_codeContainer">
         <h1 className="ounterPage_codeContainer_title">소스코드</h1>
