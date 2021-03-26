@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './CounterPage.scss';
 import useCount from 'hooks/redux/useCount';
 import Button from 'components/Common/Button';
 import Highlight from 'react-highlight.js';
 import { sourceCode } from 'data/counterData';
+import scrollTop from 'lib/scrollTop';
 
 const Counter = () => {
   const { number, onIncrease, onDecrease } = useCount();
+  useEffect(() => {
+    scrollTop();
+  }, []);
   return (
     <div className="CounterPage">
       <div className="CounterPage_reduxContainer">

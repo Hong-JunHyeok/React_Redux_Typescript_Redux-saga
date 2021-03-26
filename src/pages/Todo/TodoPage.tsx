@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './TodoPage.scss';
 import useTodo from 'hooks/redux/useTodo';
+import scrollTop from 'lib/scrollTop';
 
 const TodoPage = () => {
   const { todo, onAddTodo, onRemoveTodo, onToggleTodo } = useTodo();
+
+  useEffect(() => {
+    scrollTop();
+  }, []);
+
   return (
     <div className="Todo">
       <div className="Todo_reduxContainer">투두리스트 템플릿 예제를 여기에 추가해주세요</div>
