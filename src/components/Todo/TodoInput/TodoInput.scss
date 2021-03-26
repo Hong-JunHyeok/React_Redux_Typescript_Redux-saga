@@ -1,6 +1,14 @@
+@import 'styles/colors.scss';
+@import 'styles/util.scss';
+
 .TodoInput {
-  display: flex;
+  height: 15%;
+  @include centerSort();
   &_input {
     outline: none;
+    border: 2px solid $MAIN_COLOR;
+    padding: 0.4rem;
+    border-radius: 40px;
+    margin-top: 20px;
   }
 }

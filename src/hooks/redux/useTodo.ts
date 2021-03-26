@@ -9,8 +9,8 @@ const useTodo = () => {
   const dispatch = useDispatch();
 
   const onAddTodo = useCallback(
-    (id, title, content) => {
-      dispatch(addTodo(id, title, content));
+    (todo: string) => {
+      dispatch(addTodo(todo));
     },
     [dispatch]
   );

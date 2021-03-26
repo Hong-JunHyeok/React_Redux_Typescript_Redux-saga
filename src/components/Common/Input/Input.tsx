@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { SetStateAction } from 'react';
 import './Input.scss';
 
-const Input = () => {
+interface PropsType {}
+
+const Input = ({}: PropsType) => {
   return <input type="text" className="Input" />;
 };
 

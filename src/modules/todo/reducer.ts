@@ -4,11 +4,12 @@ import { Todos } from './types';
 const intialState: Todos = [
   {
     id: 1,
-    title: '9:00시 친구와 외식하러 가기',
-    content: '위치 : 아웃백 스테이크 하우스',
-    done: false,
+    todo: '스테이크 먹으러 가기',
+    done: true,
   },
 ];
+
+let index = intialState.length;
 
 function todoReducer(state = intialState, action: TodoActions) {
   switch (action.type) {
@@ -16,9 +17,8 @@ function todoReducer(state = intialState, action: TodoActions) {
       return [
         ...state,
         {
-          id: action.payload.id,
-          title: action.payload.title,
-          content: action.payload.content,
+          id: ++index,
+          todo: action.payload,
           done: false,
         },
       ];

@@ -1,7 +1,6 @@
 export type Todo = {
   id: number;
-  title: string;
-  content: string;
+  todo: string;
   done: boolean;
 };
 export type Todos = Todo[];
