@@ -1,4 +1,5 @@
-import React from 'react';
+import useTodo from 'hooks/redux/useTodo';
+import React, { useEffect, useState } from 'react';
 import './TodoInput.scss';
 
 interface PropsType {
