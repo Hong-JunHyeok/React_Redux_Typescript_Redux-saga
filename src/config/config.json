@@ -1,5 +1,5 @@
 {
-  "JSON_PLACEHOLDER_SERVER": "https://jsonplaceholder.typicode.com",
   "GITHUB_SERVER": "https://api.github.com",
-  "GITHUB_ACCESS_TOKEN": "a85856bbbe8c3af508a0623d44b48b2376b872bc"
+  "GITHUB_ACCESS_TOKEN": "Basic a85856bbbe8c3af508a0623d44b48b2376b872bc",
+  "JSON_PLACEHOLDER_SERVER": "https://jsonplaceholder.typicode.com"
 }
