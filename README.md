@@ -2,6 +2,11 @@
 
 🧑🏻‍💻이 네가지를 프로처럼 사용하는 방법을 알아봅시다. (제작중...⚒️)
 
+# 예제 종류
+
+![image](https://user-images.githubusercontent.com/48292190/112724594-74d56180-8f57-11eb-9584-b66c7e75bc1c.png)
+![image](https://user-images.githubusercontent.com/48292190/112724600-7a32ac00-8f57-11eb-8ec2-ede243b39f1b.png)
+
 # JsonPlaceholder API 사용하는 방법
 
 JsonPlaceholder는 API fetch의 연습용 서버이므로, 헤더에 엑세스 토큰을 전달해 줄 필요가 없다.
