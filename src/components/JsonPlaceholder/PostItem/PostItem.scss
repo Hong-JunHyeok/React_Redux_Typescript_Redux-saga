@@ -1,0 +1,19 @@
+@import 'styles/colors.scss';
+
+.PostItem {
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow: auto;
+  &_body {
+    font-weight: lighter;
+  }
+  &_userId {
+    color: $MAIN_COLOR;
+    &::before {
+      content: '작성자ID : ';
+    }
+  }
+}

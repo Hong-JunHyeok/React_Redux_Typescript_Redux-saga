@@ -1,3 +1,4 @@
+import PostItem from 'components/JsonPlaceholder/PostItem';
 import usePosts from 'hooks/redux/usePosts';
 import { Post, Posts } from 'modules/jsonPlaceholder';
 import React, { useEffect } from 'react';
@@ -8,7 +9,9 @@ const JsonPlaceholder = () => {
   useEffect(() => {
     onReloadPosts();
   }, []);
-  const mapPosts = posts?.map((post: Post) => <>{post.title}</>);
+  const mapPosts = posts?.map((post: Post) => (
+    <PostItem title={post.title} userId={post.userId} body={post.body} id={post.id} key={post.id} />
+  ));
 
   if (loading) {
     return <>Loading</>;
