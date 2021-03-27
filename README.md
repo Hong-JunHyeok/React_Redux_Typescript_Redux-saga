@@ -2,6 +2,8 @@
 
 🧑🏻‍💻이 네가지를 프로처럼 사용하는 방법을 알아봅시다. (제작중...⚒️)
 
+[바로가기 링크](https://hong-junhyeok.github.io/React_Redux_Typescript_Redux-saga/)
+
 # 예제 종류
 
 ![image](https://user-images.githubusercontent.com/48292190/112724594-74d56180-8f57-11eb-9584-b66c7e75bc1c.png)
