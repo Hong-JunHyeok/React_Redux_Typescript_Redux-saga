@@ -18,6 +18,9 @@ function App() {
       <Route exact path="/jsonplaceholder">
         <Pages.JsonPlaceholderPage />
       </Route>
+      <Route exact path="/github">
+        <Pages.GithubPage />
+      </Route>
     </Router>
   );
 }
