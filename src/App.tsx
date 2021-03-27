@@ -15,6 +15,9 @@ function App() {
       <Route exact path="/todo">
         <Pages.TodoPage />
       </Route>
+      <Route exact path="/jsonplaceholder">
+        <Pages.JsonPlaceholderPage />
+      </Route>
     </Router>
   );
 }

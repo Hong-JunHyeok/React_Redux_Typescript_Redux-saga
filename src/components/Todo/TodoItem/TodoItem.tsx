@@ -1,4 +1,3 @@
-import Button from 'components/Common/Button';
 import React from 'react';
 import { Todo } from 'modules/todo/types';
 import './TodoItem.scss';

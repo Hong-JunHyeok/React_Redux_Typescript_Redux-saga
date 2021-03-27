@@ -33,9 +33,9 @@ export const lectures: Lecture[] = [
   },
   {
     id: 3,
-    title: '개발중...',
-    summary: '아직 개발중인 강좌입니다.',
-    link: '/',
+    title: 'API CALL',
+    summary: 'Redux , Redux-saga를 이용해서 API를 fetch하는 방법에 대해서 알아봅시다.',
+    link: '/jsonplaceholder',
     stack: {
       redux: true,
       redux_saga: true,

@@ -4,10 +4,18 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { applyMiddleware, createStore } from 'redux';
-import rootReducer from 'modules';
+import rootReducer, { rootSaga } from 'modules';
 import { composeWithDevTools } from 'redux-devtools-extension';
+import logger from 'redux-logger';
+import createSagaMiddleware from 'redux-saga';
 
-const store = createStore(rootReducer, composeWithDevTools(applyMiddleware()));
+const sagaMiddleware = createSagaMiddleware(); // 사가 미들웨어를 만듭니다.
+const store = createStore(
+  rootReducer,
+  composeWithDevTools(applyMiddleware(sagaMiddleware, logger))
+);
+
+sagaMiddleware.run(rootSaga);
 
 ReactDOM.render(
   <React.StrictMode>

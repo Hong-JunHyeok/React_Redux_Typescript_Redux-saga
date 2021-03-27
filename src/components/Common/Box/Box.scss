@@ -9,6 +9,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: ease-in-out 0.2s;
   cursor: pointer;
+  user-select: none;
   &:hover {
     transform: translateY(-10px);
   }
@@ -28,6 +29,7 @@
     width: 100%;
     margin-top: 8rem;
     text-align: center;
+
     &_icon {
       border-radius: 70%;
       margin: 1rem;

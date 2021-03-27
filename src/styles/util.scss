@@ -6,6 +6,10 @@ h6 {
   font-size: 14px;
   font-weight: lighter;
 }
+.warning {
+  color: red;
+  font-weight: bold;
+}
 
 @mixin centerSort() {
   display: flex;
