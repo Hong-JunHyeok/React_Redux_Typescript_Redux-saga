@@ -1,0 +1,25 @@
+@import 'styles/util.scss';
+@import 'styles/colors.scss';
+.GithubPage {
+  width: 100%;
+  &_reduxContainer {
+    @include centerSort();
+    height: 100vh;
+    &_input {
+      outline: none;
+      border: 2px solid $MAIN_COLOR;
+      padding: 0.4rem;
+      border-radius: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  &_codeContainer {
+    &_title {
+      text-align: center;
+    }
+    &_card {
+      margin-top: 3rem;
+    }
+  }
+}
