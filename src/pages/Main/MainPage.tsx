@@ -16,9 +16,13 @@ const MainPage = () => {
       <div className="mainPage_subTitle">
         리덕스,리덕스 사가,타입스크립트,리액트를 프로처럼 프로답게 사용하는 법을 알아보도록 합시다.
       </div>
+      <p className="mainPage_desc">
+        본 사이트의 내용은 100% 신용할 내용은 아니며, 오류나 오타 혹은 피드백이 있을 경우에 Pull
+        Request를 해주시길 부탁드립니다. 감사합니다.
+      </p>
       <hr />
       {mapLecture}
-      <GithubButton link="https://github.com/Hong-JunHyeok" />
+      <GithubButton link="https://github.com/Hong-JunHyeok/React_Redux_Typescript_Redux-saga" />
     </div>
   );
 };

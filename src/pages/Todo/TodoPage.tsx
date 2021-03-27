@@ -40,8 +40,8 @@ const TodoPage = () => {
             }}
           />
         </TodoTemplate>
+        <span className="bounce_animation">아래로 스크롤해서 소스코드를 확인해보세요!</span>
       </div>
-      <span className="bounce_animation">아래로 스크롤해서 소스코드를 확인해보세요!</span>
       <div className="Todo_codeContainer">
         <h1 className="Todo_codeContainer_title">소스코드</h1>
         <div className="Todo_codeContainer_card">
