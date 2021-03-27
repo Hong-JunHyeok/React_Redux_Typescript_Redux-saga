@@ -3,6 +3,7 @@ import { useHistory } from 'react-router-dom';
 import './Box.scss';
 import redux from 'assets/icons/redux_logo.png';
 import redux_saga from 'assets/icons/redux-saga_logo.png';
+import github from 'assets/icons/github_logo.png';
 import { Stack } from 'data/lectureData';
 
 interface PropsType {
@@ -29,6 +30,7 @@ const Box = ({ title, summary, link, stack }: PropsType) => {
         {stack.redux_saga && (
           <img className="Box_iconDiv_icon" src={redux_saga} alt="리덕스 로고" />
         )}
+        {stack.github && <img className="Box_iconDiv_icon" src={github} alt="깃허브 로고" />}
       </div>
     </div>
   );

@@ -12,10 +12,12 @@ import scrollUp from 'lib/scrollTop';
 
 const JsonPlaceholder = () => {
   const { posts, loading, error, onReloadPosts } = usePosts();
+
   useEffect(() => {
     scrollUp();
     onReloadPosts();
   }, []);
+
   const mapPosts = posts?.map((post: Post) => (
     <PostItem title={post.title} userId={post.userId} body={post.body} id={post.id} key={post.id} />
   ));

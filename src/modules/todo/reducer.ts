@@ -4,7 +4,7 @@ import { Todos } from './types';
 const intialState: Todos = [
   {
     id: 1,
-    todo: '스테이크 먹으러 가기',
+    todo: 'B1ND 출근하기',
     done: true,
   },
 ];

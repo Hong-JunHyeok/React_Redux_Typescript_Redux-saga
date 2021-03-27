@@ -8,6 +8,7 @@ export type Lecture = {
 export type Stack = {
   redux?: boolean;
   redux_saga?: boolean;
+  github?: boolean;
 };
 
 export const lectures: Lecture[] = [
@@ -39,6 +40,17 @@ export const lectures: Lecture[] = [
     stack: {
       redux: true,
       redux_saga: true,
+    },
+  },
+  {
+    id: 4,
+    title: 'Github API',
+    summary: 'Redux , Redux-saga를 이용해서 깃허브 API를 사용하는 방법을 알아봅시다.',
+    link: '/github',
+    stack: {
+      redux: true,
+      redux_saga: true,
+      github: true,
     },
   },
 ];

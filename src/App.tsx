@@ -5,7 +5,7 @@ import 'styles/reset.scss';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React_Redux_Typescript_Redux-saga">
       <Route exact path="/">
         <Pages.MainPage />
       </Route>
