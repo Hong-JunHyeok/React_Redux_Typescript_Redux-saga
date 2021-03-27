@@ -1,4 +1,4 @@
-import { AxiosError, AxiosResponse } from 'axios';
+import { AxiosError } from 'axios';
 import { Posts } from './types';
 
 export const CALL_DATA = 'CALL_DATA' as const;
