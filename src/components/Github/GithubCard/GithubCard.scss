@@ -1,2 +1,26 @@
 .GithubCard {
+  width: 300px;
+  height: 500px;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  &_avatar {
+    width: 100%;
+    border-radius: 70%;
+    user-select: none;
+  }
+  &_bio {
+    margin-bottom: 20px;
+    display: block;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  &_followers {
+    &_icon {
+      margin-right: 10px;
+    }
+    &::after {
+      content: '﹒';
+    }
+  }
 }
