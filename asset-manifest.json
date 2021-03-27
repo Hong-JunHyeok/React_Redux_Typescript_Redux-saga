@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React_Redux_Typescript_Redux-saga/static/css/main.d6c1eba9.chunk.css",
+    "main.js": "/React_Redux_Typescript_Redux-saga/static/js/main.98c10a6d.chunk.js",
+    "main.js.map": "/React_Redux_Typescript_Redux-saga/static/js/main.98c10a6d.chunk.js.map",
+    "runtime-main.js": "/React_Redux_Typescript_Redux-saga/static/js/runtime-main.eb6b999b.js",
+    "runtime-main.js.map": "/React_Redux_Typescript_Redux-saga/static/js/runtime-main.eb6b999b.js.map",
+    "static/js/2.a8a5b9fe.chunk.js": "/React_Redux_Typescript_Redux-saga/static/js/2.a8a5b9fe.chunk.js",
+    "static/js/2.a8a5b9fe.chunk.js.map": "/React_Redux_Typescript_Redux-saga/static/js/2.a8a5b9fe.chunk.js.map",
+    "static/js/3.eccf40e2.chunk.js": "/React_Redux_Typescript_Redux-saga/static/js/3.eccf40e2.chunk.js",
+    "static/js/3.eccf40e2.chunk.js.map": "/React_Redux_Typescript_Redux-saga/static/js/3.eccf40e2.chunk.js.map",
+    "index.html": "/React_Redux_Typescript_Redux-saga/index.html",
+    "static/css/main.d6c1eba9.chunk.css.map": "/React_Redux_Typescript_Redux-saga/static/css/main.d6c1eba9.chunk.css.map",
+    "static/js/2.a8a5b9fe.chunk.js.LICENSE.txt": "/React_Redux_Typescript_Redux-saga/static/js/2.a8a5b9fe.chunk.js.LICENSE.txt",
+    "static/media/redux-saga_logo.aca936a8.png": "/React_Redux_Typescript_Redux-saga/static/media/redux-saga_logo.aca936a8.png",
+    "static/media/redux_logo.010fcccb.png": "/React_Redux_Typescript_Redux-saga/static/media/redux_logo.010fcccb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb6b999b.js",
+    "static/js/2.a8a5b9fe.chunk.js",
+    "static/css/main.d6c1eba9.chunk.css",
+    "static/js/main.98c10a6d.chunk.js"
+  ]
+}
