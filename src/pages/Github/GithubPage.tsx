@@ -30,6 +30,7 @@ const GithubPage = () => {
   return (
     <div className="GithubPage">
       <div className="GithubPage_reduxContainer">
+        <h6>리덕스 Devtools를 이용하여 액션의 변화를 관찰해보세요!</h6>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
