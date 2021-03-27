@@ -45,8 +45,7 @@ export const lectures: Lecture[] = [
   {
     id: 4,
     title: 'Github API',
-    summary:
-      'Redux , Redux-saga를 이용해서 깃허브 API를 사용하는 방법을 알아봅시다.(아직 개발중인 예제입니다.)',
+    summary: 'Redux , Redux-saga를 이용해서 깃허브 API를 사용하는 방법을 알아봅시다.',
     link: '/github',
     stack: {
       redux: true,

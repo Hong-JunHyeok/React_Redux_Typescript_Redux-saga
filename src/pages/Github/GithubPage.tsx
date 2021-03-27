@@ -10,7 +10,7 @@ import { sourceCode } from 'data/githubData';
 
 const GithubPage = () => {
   const [username, setUsername] = useState('Hong-JunHyeok');
-  const { user, error, loading, onGetUser } = useGithub();
+  const { user, loading, onGetUser } = useGithub();
 
   useEffect(() => {
     scrollUp();
