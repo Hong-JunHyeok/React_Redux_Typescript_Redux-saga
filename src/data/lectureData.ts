@@ -15,7 +15,7 @@ export const lectures: Lecture[] = [
   {
     id: 1,
     title: '카운터',
-    summary: '리덕스를 이용해서 투두리스트를 만드는 방법에 대해서 알아봅시다. ',
+    summary: '리덕스를 이용해서 카운터를 만드는 방법에 대해서 알아봅시다. ',
     link: '/counter',
     stack: {
       redux: true,
